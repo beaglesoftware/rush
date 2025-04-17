@@ -75,13 +75,10 @@ pub fn run_shell(config_dir: PathBuf) -> Result<()> {
         )
         .collect::<Vec<_>>();
     let history_path = config_dir.join("history.rushh");
-    println!("{:#?}", history_path);
-
     // Just for debugging :)
     // Using the old school "printing"
-
-    // We will exit. If you are on macOS, it throws error "IO error: read-only file system" because of System Integrity Protection I guess.
-    // std::process::exit(0);
+    // println!("{:#?}", history_path);
+    
     let mut line_editor = Reedline::create()
         .with_hinter(hinter)
         .with_tab_completion(commands);
