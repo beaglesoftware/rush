@@ -30,5 +30,11 @@ cargo install rush
 
 Not avaliable yet.
 
-## More about it
+## Thanks to
 
+- [reedline](https://github.com/nushell/reedline): A feature-rich line editor - powering Nushell
+- [serde](https://serde.rs): Serialization framework for Rust
+- [serde_json](https://github.com/serde-rs/json): Strongly typed JSON library for Rast
+- [miette](https://github.com/zkat/miette): Fancy extension for std::error::Error with pretty, detailed diagnostic printing.
+- [anyhow](https://github.com/dtolnay/anyhow): Flexible concrete Error type built on std::error::Error
+- []
