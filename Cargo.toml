@@ -1,7 +1,10 @@
 [package]
 name = "rush"
+description = "A 'beagleful' editor written in Rust"
+repository = "https://github.com/beaglesoftware/rushr"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
 
 [dependencies]
 anyhow = "1.0.98"
