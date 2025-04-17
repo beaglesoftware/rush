@@ -12,11 +12,10 @@ version: 2
 #   hooks:
 
 builds:
-  - builder: rust
+  - builder: rust 
     flags:
       - --release
     targets:
-      - x86_64-apple-darwin
       - aarch64-apple-darwin
       - x86_64-pc-windows-gnu
 
