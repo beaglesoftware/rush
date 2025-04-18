@@ -1,10 +1,14 @@
 [package]
-name = "rush"
+name = "rush-shell"
 description = "A 'beagleful' editor written in Rust"
 repository = "https://github.com/beaglesoftware/rushr"
 version = "0.1.0"
 edition = "2021"
 license = "MIT"
+
+[[bin]]
+path = "src/main.rs"
+name = "rush"
 
 [dependencies]
 anyhow = "1.0.98"
