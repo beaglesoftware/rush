@@ -23,7 +23,7 @@ Our goal is to have a shell that it's fast, lightweight and easy to learn and cr
 ### Using Cargo
 
 ```shell
-cargo install rush
+cargo install rush-sh
 ```
 
 ### Package managers

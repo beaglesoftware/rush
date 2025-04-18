@@ -1,5 +1,5 @@
 [package]
-name = "rush-shell"
+name = "rush-sh"
 description = "A 'beagleful' editor written in Rust"
 repository = "https://github.com/beaglesoftware/rushr"
 version = "0.1.0"
