@@ -14,10 +14,11 @@ builds:
       - x86_64-pc-windows-msvc
 
   - id: windows
-    binary: rush
-    goos: [windows]
-    goarch: [amd64]
     builder: rust
+    flags:
+      - --release
+    targets:
+      - x86_64-pc-windows-msvc
 
 archives:
   - formats: [ tar.gz ]
