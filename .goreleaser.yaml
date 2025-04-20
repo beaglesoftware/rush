@@ -15,13 +15,9 @@ builds:
 
   - id: windows
     binary: rush
-    goos: windows
-    goarch: amd64
-    target: x86_64-pc-windows-msvc
-    builder: custom
-    build_command: cargo xwin build --release --target {{ .Target }}
-    artifacts:
-      - path: target/{{ .Target }}/release/rush.exe
+    goos: [windows]
+    goarch: [amd64]
+    builder: rust
 
 archives:
   - formats: [ tar.gz ]
